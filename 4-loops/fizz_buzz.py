@@ -1,12 +1,12 @@
 # Fizz Buzz 🐝
 # Codédex
 
-for num in range(1, 101):
-  if num % 3 == 0 and num % 5 == 0:
-    print("FizzBuzz")
-  elif num % 3 == 0:
-    print("Fizz")
-  elif num % 5 == 0:
-    print("Buzz")
-  else:
-    print(num)
+for number in range(0,101):
+    if number%5!=0 and number%3!=0:
+        print(number)
+    elif number%5==0 and number%3==0:
+        print("fizzbuzz")
+    elif number%3==0:
+        print("fizz")
+    elif number%5==0:
+        print("buzz")
